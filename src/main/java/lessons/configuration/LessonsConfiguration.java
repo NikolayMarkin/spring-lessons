@@ -1,6 +1,6 @@
-package lessons;
+package lessons.configuration;
 
-import lessons.services.BeanWithDependency;
+import lessons.configuration.AnotherConfiguration;
 import lessons.services.GreetingService;
 import lessons.services.GreetingServiceImpl;
 import org.springframework.context.annotation.*;

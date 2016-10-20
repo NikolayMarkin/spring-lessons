@@ -9,12 +9,12 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class GreetingServiceImpl implements GreetingService {
 
-    private ApplicationContext context;
-
-    @Required
-    public void setContext(ApplicationContext context) {
-        this.context = context;
-    }
+//    private ApplicationContext context;
+//
+//    @Required
+//    public void setContext(ApplicationContext context) {
+//        this.context = context;
+//    }
 
     @Override
     public String sayGreeting() {

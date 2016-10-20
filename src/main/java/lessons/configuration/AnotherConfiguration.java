@@ -1,4 +1,4 @@
-package lessons;
+package lessons.configuration;
 
 import lessons.services.BeanWithDependency;
 import lessons.services.GreetingService;
